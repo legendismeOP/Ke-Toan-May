@@ -1,0 +1,2017 @@
+{
+	"info": {
+		"_postman_id": "60bbe3b1-3971-461c-9adb-de88e9ed187b",
+		"name": "Kế Toán Máy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31208163"
+	},
+	"item": [
+		{
+			"name": "chungtughiso",
+			"item": [
+				{
+					"name": "chungtughiso getall",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/chungtughiso",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"chungtughiso"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "chungtughiso  sochungtuNext",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/chungtughiso/sochungtunext",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"chungtughiso",
+								"sochungtunext"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "chungtughiso bysochungtu",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/chungtughiso/bysochungtu/001-01",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"chungtughiso",
+								"bysochungtu",
+								"001-01"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Insert chungtughiso",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"chungTuGhiSoData\": {\r\n        \"cMaChungTu\": \"GS-001/11-23/11/23\",\r\n        \"cLoaiChungTu\": \"GS\",\r\n        \"cSoChungTu\": \"001/11\",\r\n        \"dNgayChungTu\": \"2023-11-23T00:00:00.000Z\",\r\n        \"cHoTen\": null,\r\n        \"cMaKhachHangNo\": null,\r\n        \"cTenKhachHangNo\": null,\r\n        \"cMaSoThueNo\": null,\r\n        \"cMaKhachHangCo\": \"0034\",\r\n        \"cTenKhachHangCo\": \"Cty XNK VT Thiết Bị Ngành IN\",\r\n        \"cMaSoThueCo\": \"0301465129\",\r\n        \"cDienGiai\": \"Mua kính soi tram của Printexim\",\r\n        \"cBieuThue\": \"03\",\r\n        \"cSoSeRi\": \"AA/YY\",\r\n        \"cSoHoaDon\": \"022664\",\r\n        \"dNgayHoaDon\": \"2023-11-23T00:00:00.000Z\",\r\n        \"nThueSuat\": 0.1,\r\n        \"nThueGTGT\": null,\r\n        \"cMatHang\": \"Kính soi tram\"\r\n    },\r\n    \"chungTuGhiSoChiTietData\": {\r\n        \"cDienGiaiChiTiet\": \"Mua kính soi tram của Printexim\",\r\n        \"nSoTien\": 280000,\r\n        \"cTaiKhoanNo\": \"642\",\r\n        \"cTaiKhoanCo\": \"331\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/chungtughiso/createdchungtughiso",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"chungtughiso",
+								"createdchungtughiso"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PATCH",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "chungtuketchuyen",
+			"item": [
+				{
+					"name": "chungtuketchuyen getall",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/chungtuketchuyen",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"chungtuketchuyen"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "chungtuketchuyen machungtuNext",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/chungtuketchuyen/sochungtunext",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"chungtuketchuyen",
+								"sochungtunext"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "chungtuketchuyen bymachungtu",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/chungtuketchuyen/bysochungtu/KC-K04-01-02",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"chungtuketchuyen",
+								"bysochungtu",
+								"KC-K04-01-02"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "insert chungtuketchuyen",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"chungTuKetChuyenDaTa\":{\r\n        \"cMaChungTu\": \"KC-K04-12/23\",\r\n        \"cLoaiChungTu\": \"KC\",\r\n        \"cSoChungTu\": null,\r\n        \"dNgayChungTu\": \"2032-11-23T00:00:00.000Z\",\r\n        \"cDienGiai\": \"Kết chuyển hàng  trả lại\"\r\n    },\r\n    \"ketChuyenChiTietDaTa\":{\r\n                \"cDienGiaiChiTiet\": \"Kết chuyển 531 vô 511\",\r\n                \"cTaiKhoanNo\": \"511\",\r\n                \"cTaiKhoanCo\": \"531\",\r\n                \"nSoTien\": 11086000\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/chungtuketchuyen/createchungtuketchuyen",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"chungtuketchuyen",
+								"createchungtuketchuyen"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"updateChungTuKetChuyenData\":{\r\n        \"dNgayChungTu\": \"2032-11-30T00:00:00.000Z\"\r\n    },\r\n    \"updateChungTuKetChuyenChiTietData\":{\r\n                \"nSoTien\": 12000000\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/chungtuketchuyen/updatedchungtuketchuyen/KC-K04-12-23?id=37",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"chungtuketchuyen",
+								"updatedchungtuketchuyen",
+								"KC-K04-12-23"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "37"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/chungtuketchuyen/deletedchungtuketchuyen/KC-K04-12-23",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"chungtuketchuyen",
+								"deletedchungtuketchuyen",
+								"KC-K04-12-23"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "chungtunganhang",
+			"item": [
+				{
+					"name": "chungtunganhang getall",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/chungtunganhang",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"chungtunganhang"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "chungtunganhang sochungtuNext",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/chungtunganhang/sochungtunext",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"chungtunganhang",
+								"sochungtunext"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "chungtunganhang bymachungtu",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/chungtunganhang/bysochungtu/001-01",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"chungtunganhang",
+								"bysochungtu",
+								"001-01"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "insert chungtunganhang",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"insertChungTuNganHangData\":{\r\n        \"cMaChungTu\": \"TG-002/01-04/01/02\",\r\n        \"cLoaiChungTu\": \"TG\",\r\n        \"dNgayChungTu\": \"2002-01-04T00:00:00.000Z\",\r\n        \"cSoChungTu\": \"001/01\",\r\n        \"cHoTen\": null,\r\n        \"cMaKhachHang\": \"0142\",\r\n        \"cTenKhachHang\": \"Cty TNHH Nestle VN\",\r\n        \"cMaSoThue\": null,\r\n        \"cDienGiai\": \"Thu tiền Cty Nestle\",\r\n        \"nThu_Chi\": 1\r\n},\r\n    \"insertChungTuNganHangChiTietData\":{\r\n        \"nMaSo\": 2,\r\n        \"cDienGiaiChiTiet\": \"Cty Nestle VN chuyển trả tiền qua ICB\",\r\n        \"nSoTien\": 3080000,\r\n        \"cTaiKhoanNo\": \"1121\",\r\n        \"cTaiKhoanCo\": \"131\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/chungtunganhang/createchungtunganhang",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"chungtunganhang",
+								"createchungtunganhang"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"updateChungTuNganHangData\":{\r\n        \"cHoTen\": \"Dinh Luong Vinh Tu\"\r\n},\r\n    \"updateChungTuNganHangChiTietData\":{\r\n        \"nSoTien\": 5000000\r\n    }\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/chungtunganhang/updatechungtunganhang/TG-002-01-04-01-02?maso=64",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"chungtunganhang",
+								"updatechungtunganhang",
+								"TG-002-01-04-01-02"
+							],
+							"query": [
+								{
+									"key": "maso",
+									"value": "64"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/chungtunganhang/deletechungtunganhang/TG-002-01-04-01-02",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"chungtunganhang",
+								"deletechungtunganhang",
+								"TG-002-01-04-01-02"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "danhmucchungtu",
+			"item": [
+				{
+					"name": "danhmucchungtu getall",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/danhmucchungtu",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"danhmucchungtu"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "danhmuchanghoa",
+			"item": [
+				{
+					"name": "danhmuchanghoa getall",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/danhmuchanghoa",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"danhmuchanghoa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "danhmuchanghoa bymahang",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/danhmuchanghoa/bymahang/GA000001",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"danhmuchanghoa",
+								"bymahang",
+								"GA000001"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "insert hanghoa",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"cMaHang\": \"GA000013\",\r\n        \"cTenHang\": \"Giấy Nhám\",\r\n        \"cNhomHang\": \"GA\",\r\n        \"cDonViTinh\": \"Kg\",\r\n        \"nSoLuongTonDau\": 1859.9,\r\n        \"nThanhTienTonDau\": 24756760,\r\n        \"dNgayTonDau\": \"2002-01-01T00:00:00.000Z\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/danhmuchanghoa/createhanghoa",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"danhmuchanghoa",
+								"createhanghoa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nSoLuongTonDau\": 1500,\r\n    \"nThanhTienTonDau\": 30000000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/danhmuchanghoa/updatehanghoa/GA000013",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"danhmuchanghoa",
+								"updatehanghoa",
+								"GA000013"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/chungtunganhang/deletechungtunganhang/TG-002-01-04-01-02",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"chungtunganhang",
+								"deletechungtunganhang",
+								"TG-002-01-04-01-02"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "danhmuckhachhang",
+			"item": [
+				{
+					"name": "danhmuckhachhang getall",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/danhmuckhachhang",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"danhmuckhachhang"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "insert danhmuckhachhang",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"insertChungTuNganHangData\":{\r\n        \"cMaChungTu\": \"TG-002/01-04/01/02\",\r\n        \"cLoaiChungTu\": \"TG\",\r\n        \"dNgayChungTu\": \"2002-01-04T00:00:00.000Z\",\r\n        \"cSoChungTu\": \"001/01\",\r\n        \"cHoTen\": null,\r\n        \"cMaKhachHang\": \"0142\",\r\n        \"cTenKhachHang\": \"Cty TNHH Nestle VN\",\r\n        \"cMaSoThue\": null,\r\n        \"cDienGiai\": \"Thu tiền Cty Nestle\",\r\n        \"nThu_Chi\": 1\r\n},\r\n    \"insertChungTuNganHangChiTietData\":{\r\n        \"nMaSo\": 2,\r\n        \"cDienGiaiChiTiet\": \"Cty Nestle VN chuyển trả tiền qua ICB\",\r\n        \"nSoTien\": 3080000,\r\n        \"cTaiKhoanNo\": \"1121\",\r\n        \"cTaiKhoanCo\": \"131\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/chungtunganhang/createchungtunganhang",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"chungtunganhang",
+								"createchungtunganhang"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"updateChungTuNganHangData\":{\r\n        \"cHoTen\": \"Dinh Luong Vinh Tu\"\r\n},\r\n    \"updateChungTuNganHangChiTietData\":{\r\n        \"nSoTien\": 5000000\r\n    }\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/chungtunganhang/updatechungtunganhang/TG-002-01-04-01-02?maso=64",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"chungtunganhang",
+								"updatechungtunganhang",
+								"TG-002-01-04-01-02"
+							],
+							"query": [
+								{
+									"key": "maso",
+									"value": "64"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/chungtunganhang/deletechungtunganhang/TG-002-01-04-01-02",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"chungtunganhang",
+								"deletechungtunganhang",
+								"TG-002-01-04-01-02"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get bymakhachhang",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/danhmuckhachhang/bymakhachhang/0004",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"danhmuckhachhang",
+								"bymakhachhang",
+								"0004"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "danhmuctaikhoan",
+			"item": [
+				{
+					"name": "danhmuctaikhoan getall",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/danhmuctaikhoan",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"danhmuctaikhoan"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "danhmuctaikhoan bysotaikhoan",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/danhmuctaikhoan/112",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"danhmuctaikhoan",
+								"112"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "insert danhmuctaikhoan",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"insertChungTuNganHangData\":{\r\n        \"cMaChungTu\": \"TG-002/01-04/01/02\",\r\n        \"cLoaiChungTu\": \"TG\",\r\n        \"dNgayChungTu\": \"2002-01-04T00:00:00.000Z\",\r\n        \"cSoChungTu\": \"001/01\",\r\n        \"cHoTen\": null,\r\n        \"cMaKhachHang\": \"0142\",\r\n        \"cTenKhachHang\": \"Cty TNHH Nestle VN\",\r\n        \"cMaSoThue\": null,\r\n        \"cDienGiai\": \"Thu tiền Cty Nestle\",\r\n        \"nThu_Chi\": 1\r\n},\r\n    \"insertChungTuNganHangChiTietData\":{\r\n        \"nMaSo\": 2,\r\n        \"cDienGiaiChiTiet\": \"Cty Nestle VN chuyển trả tiền qua ICB\",\r\n        \"nSoTien\": 3080000,\r\n        \"cTaiKhoanNo\": \"1121\",\r\n        \"cTaiKhoanCo\": \"131\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/chungtunganhang/createchungtunganhang",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"chungtunganhang",
+								"createchungtunganhang"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"updateChungTuNganHangData\":{\r\n        \"cHoTen\": \"Dinh Luong Vinh Tu\"\r\n},\r\n    \"updateChungTuNganHangChiTietData\":{\r\n        \"nSoTien\": 5000000\r\n    }\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/chungtunganhang/updatechungtunganhang/TG-002-01-04-01-02?maso=64",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"chungtunganhang",
+								"updatechungtunganhang",
+								"TG-002-01-04-01-02"
+							],
+							"query": [
+								{
+									"key": "maso",
+									"value": "64"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/chungtunganhang/deletechungtunganhang/TG-002-01-04-01-02",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"chungtunganhang",
+								"deletechungtunganhang",
+								"TG-002-01-04-01-02"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "danhmuctaikhoancongnokhachhang",
+			"item": [
+				{
+					"name": "danhmuctaikhoancongnokhachhang getall",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/danhmuctaikhoancongnokhachhang",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"danhmuctaikhoancongnokhachhang"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "danhmuctaikhoancongnokhachhang bymakhachhang",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/danhmuctaikhoancongnokhachhang/getOneRecord/0130/3389",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"danhmuctaikhoancongnokhachhang",
+								"getOneRecord",
+								"0130",
+								"3389"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "insert danhmuctaikhoanCNKH",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cTaiKhoan\": \"3389\",\r\n    \"cMaKhachHang\": \"0130\",\r\n    \"nSoDuNoDau\": 0,\r\n    \"nSoDuCoDau\": 0,\r\n    \"dNgaySoDu\": \"2002-01-01T00:00:00.000Z\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/danhmuctaikhoancongnokhachhang/createtaikhoancongno",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"danhmuctaikhoancongnokhachhang",
+								"createtaikhoancongno"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nSoDuNoDau\": 50\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/danhmuctaikhoancongnokhachhang/updatetaikhoancongno/0130/3389",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"danhmuctaikhoancongnokhachhang",
+								"updatetaikhoancongno",
+								"0130",
+								"3389"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/danhmuctaikhoancongnokhachhang/deletetaikhoancongno/0130/3389",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"danhmuctaikhoancongnokhachhang",
+								"deletetaikhoancongno",
+								"0130",
+								"3389"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "phieuchi",
+			"item": [
+				{
+					"name": "phieuchi getall",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/phieuchichitiet",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieuchichitiet"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "phieuchi bymachungtu",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/phieuchichitiet/bymachungtu/PC-002-01-03-01-02",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieuchichitiet",
+								"bymachungtu",
+								"PC-002-01-03-01-02"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "phieuchi sochungtunext",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/phieuchi/sochungtunext",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieuchi",
+								"sochungtunext"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "insert phieuchi",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"insertPhieuChiData\":{\r\n        \"cMaChungTu\": \"PC-002/01-03/01/02\",\r\n        \"cLoaiChungTu\": \"PC\",\r\n        \"cSoChungTu\": \"001/01\",\r\n        \"dNgayChungTu\": \"2002-01-03T00:00:00.000Z\",\r\n        \"cHoTen\": \"Nguyễn Anh Tuấn\",\r\n        \"cDiaChi\": null,\r\n        \"cMaKhachHang\": \"0128\",\r\n        \"cTenKhachHang\": \"Cty Quán Quân\",\r\n        \"cMaSoThue\": \"0301178773-1\",\r\n        \"cDienGiai\": \"Mua giấy in vi tính\",\r\n        \"cBieuThue\": \"03\",\r\n        \"cSoSeRi\": \"AA/XX\",\r\n        \"cSoHoaDon\": \"001113\",\r\n        \"dNgayHoaDon\": \"2002-01-03T00:00:00.000Z\",\r\n        \"nThueSuat\": 0.1,\r\n        \"cMatHang\": \"Giấy vi tính\"\r\n},\r\n        \"insertPhieuChiChiTietData\": {\r\n        \"cDienGiaiChiTiet\": \"Mua giấy in vi tính\",\r\n        \"nSoTien\": 276000,\r\n        \"cTaiKhoanNo\": \"642\",\r\n        \"cTaiKhoanCo\": \"111\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/phieuchichitiet/createphieuchi",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieuchichitiet",
+								"createphieuchi"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"updatePhieuChiData\":{\r\n        \"cHoTen\": \"Đinh Lương Vĩnh Tú\"\r\n},\r\n        \"updatePhieuChiChiTietData\": {\r\n\r\n        \"nSoTien\": 300000\r\n\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/phieuchichitiet/updatephieuchi/PC-002-01-03-01-02?id=161",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieuchichitiet",
+								"updatephieuchi",
+								"PC-002-01-03-01-02"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "161"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/phieuchichitiet/deletedphieuchi/PC-002-01-03-01-02",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieuchichitiet",
+								"deletedphieuchi",
+								"PC-002-01-03-01-02"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "phieunhaphanghoa",
+			"item": [
+				{
+					"name": "phieunhaphanghoa getall",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/phieunhaphanghoa",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieunhaphanghoa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "phieunhaphanghoa bymachungtu",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/phieunhaphanghoa/bysochungtu/001-01",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieunhaphanghoa",
+								"bysochungtu",
+								"001-01"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "phieunhaphanghoa sochungtuNext",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/phieunhaphanghoa/sochungtunext",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieunhaphanghoa",
+								"sochungtunext"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "insert phieunhaphanghoa",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cTaiKhoan\": \"3389\",\r\n    \"cMaKhachHang\": \"0130\",\r\n    \"nSoDuNoDau\": 0,\r\n    \"nSoDuCoDau\": 0,\r\n    \"dNgaySoDu\": \"2002-01-01T00:00:00.000Z\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/danhmuctaikhoancongnokhachhang/createtaikhoancongno",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"danhmuctaikhoancongnokhachhang",
+								"createtaikhoancongno"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nSoDuNoDau\": 50\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/danhmuctaikhoancongnokhachhang/updatetaikhoancongno/0130/3389",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"danhmuctaikhoancongnokhachhang",
+								"updatetaikhoancongno",
+								"0130",
+								"3389"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/danhmuctaikhoancongnokhachhang/deletetaikhoancongno/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"danhmuctaikhoancongnokhachhang",
+								"deletetaikhoancongno",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "phieunhaphangtralai",
+			"item": [
+				{
+					"name": "phieunhaphangtralai getall",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/phieunhaphangtralai",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieunhaphangtralai"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "phieunhaphangtralai bymachungtu",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/phieunhaphangtralai/bymachungtu/NT-002-04-22-04-08",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieunhaphangtralai",
+								"bymachungtu",
+								"NT-002-04-22-04-08"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "phieunhaphangtralai sochungtuNext",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/phieunhaphangtralai/sochungtunext",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieunhaphangtralai",
+								"sochungtunext"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "insert phieunhaphangtralai",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"insertPhieuNhapHangHoaTraLaiData\":{\r\n        \"cMaChungTu\": \"NT-002/04-22/04/05\",\r\n        \"cLoaiChungTu\": \"NT\",\r\n        \"dNgayChungTu\": \"2008-04-22T00:00:00.000Z\",\r\n        \"cSoChungTu\": \"001/04\",\r\n        \"cDienGiai\": null,\r\n        \"cMaKhachHang\": \"0004\",\r\n        \"cTenKhachHang\": \"Cty Yomost\",\r\n        \"cMaSoThue\": \"3700229344\",\r\n        \"cTaiKhoanNoGiaVon\": \"156\",\r\n        \"cTaiKhoanCoGiaVon\": \"632\",\r\n        \"cTaiKhoanNoGiaBan\": \"531\",\r\n        \"cTaiKhoanNoGTGT\": \"3331\",\r\n        \"cTaiKhoanCoGiaBan\": \"131\",\r\n        \"cBieuThue\": \"02\",\r\n        \"cSoSeRi\": null,\r\n        \"cSoHoaDon\": null,\r\n        \"dNgayHoaDon\": null,\r\n        \"nThueSuat\": 0.1,\r\n        \"nThueGTGT\": 0,\r\n        \"cMatHang\": null\r\n    },\r\n    \"insertPhieuNhapHangHoaTraLaiChiTietData\":{\r\n                \"cMaHang\": \"GA000005\",\r\n                \"cDonViTinh\": \"Mét\",\r\n                \"nSoLuong\": 3000,\r\n                \"nDonGiaVon\": 6159.09,\r\n                \"nThanhTienGiaVon\": 6159091,\r\n                \"nDonGiaBan\": 11086,\r\n                \"nThanhTienGiaBan\": 11086000\r\n            }\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/phieunhaphangtralai/createphieunhaphangtralai",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieunhaphangtralai",
+								"createphieunhaphangtralai"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"updatePhieuNhapHangHoaTraLaiChiTietData\":{\r\n    \"nMaSo\": 123\r\n    }\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/phieunhaphangtralai/updatephieunhaphangtralai/NT-002-04-22-04-05?maso=1123240371",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieunhaphangtralai",
+								"updatephieunhaphangtralai",
+								"NT-002-04-22-04-05"
+							],
+							"query": [
+								{
+									"key": "maso",
+									"value": "1123240371"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/phieunhaphangtralai/deletephieunhaphangtralai/NT-002-04-22-04-05",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieunhaphangtralai",
+								"deletephieunhaphangtralai",
+								"NT-002-04-22-04-05"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "phieuthu",
+			"item": [
+				{
+					"name": "phieuthu getall",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/phieuthu",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieuthu"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "phieuthu bymachungtu",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/phieuthu/bysochungtu/001-01",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieuthu",
+								"bysochungtu",
+								"001-01"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "phieuthu sochungtuNext",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/phieuthu/sochungtunext",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieuthu",
+								"sochungtunext"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "insert phieuthu",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"insertPhieuThuData\":{\r\n        \"cMaChungTu\": \"PT-002/01-03/01/05\",\r\n        \"cLoaiChungTu\": \"PT\",\r\n        \"dNgayChungTu\": \"2002-01-03T00:00:00.000Z\",\r\n        \"cSoChungTu\": \"001/01\",\r\n        \"cHoTen\": \"DLVT\",\r\n        \"cDiaChi\": null,\r\n        \"cSoChungTuGoc\": null,\r\n        \"cMaKhachHang\": \"0023\",\r\n        \"cTenKhachHang\": \"Cty Dược \",\r\n        \"cMaSoThue\": \"3700150045\",\r\n        \"cDienGiai\": \"Thu tiền Cty Dược \",\r\n        \"cBieuThue\": null,\r\n        \"cSoSeRi\": null,\r\n        \"cSoHoaDon\": null,\r\n        \"dNgayHoaDon\": null,\r\n        \"nThueSuat\": null,\r\n        \"cMatHang\": null\r\n    },\r\n    \"insertPhieuThuChiTietData\": {\r\n                \"cDienGiaiChiTiet\": \"Thu tiền Cty Dược \",\r\n                \"nSoTien\": 5000,\r\n                \"cTaiKhoanNo\": \"111\",\r\n                \"cTaiKhoanCo\": \"131\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/phieuthuchitiet/createphieuthu",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieuthuchitiet",
+								"createphieuthu"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"updatePhieuThuData\":{\r\n        \"cTenKhachHang\": \"Cty Dược phẩm \"\r\n    }\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/phieuthuchitiet/updatephieuthu/PT-002-01-03-01-05?id=48",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieuthuchitiet",
+								"updatephieuthu",
+								"PT-002-01-03-01-05"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "48"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/phieuthuchitiet/deletephieuthu/PT-002-01-03-01-05",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieuthuchitiet",
+								"deletephieuthu",
+								"PT-002-01-03-01-05"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "phieuxuathanghoa",
+			"item": [
+				{
+					"name": "phieuxuathanghoa getall",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/phieuxuathanghoa",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieuxuathanghoa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "phieuxuathanghoa bymachungtu",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/phieuxuathanghoa/bymachungtu/XH-002-01-01-01-05",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieuxuathanghoa",
+								"bymachungtu",
+								"XH-002-01-01-01-05"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "phieuxuathanghoa sochungtuNext",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/phieuxuathanghoa/sochungtunext",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieuxuathanghoa",
+								"sochungtunext"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "insert phieuxuathanghoa",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"insertPhieuXuatData\":{\r\n        \"cMaChungTu\": \"XH-002/01-01/01/05\",\r\n        \"cLoaiChungTu\": \"XH\",\r\n        \"dNgayChungTu\": \"2002-01-01T00:00:00.000Z\",\r\n        \"cSoChungTu\": \"001/01\",\r\n        \"cMaKhachHang\": \"0004\",\r\n        \"cTenKhachHang\": \"Cty Sữa TNHH \",\r\n        \"cMaSoThue\": \"3700229344\",\r\n        \"cTaiKhoanNoGiaVon\": \"632\",\r\n        \"cTaiKhoanCoGiaVon\": \"156\",\r\n        \"cTaiKhoanNoGiaBan\": \"131\",\r\n        \"cTaiKhoanCoGiaBan\": \"511\",\r\n        \"cTaiKhoanCoGTGT\": \"3331\",\r\n        \"cDienGiai\": \"Xuất  decal giấy\",\r\n        \"cMatHang\": \"Vật tư\",\r\n        \"nThueSuat\": 0.1,\r\n        \"nThueGTGT\": 1685000,\r\n        \"cSoSeri\": \"AA/99\",\r\n        \"cSoHoaDon\": \"085607\"\r\n    },\r\n    \"insertPhieuXuatHangHoaChiTietData\":{\r\n        \"cMaHang\": \"MU007003\",\r\n                \"cDonViTinh\": \"Kg\",\r\n                \"nSoLuong\": 10,\r\n                \"nDonGiaVon\": 1000000,\r\n                \"nThanhTienGiaVon\": 100000000,\r\n                \"nDonGiaBan\": 5000,\r\n                \"nThanhTienGiaBan\": 50000000,\r\n                \"cMaChungTuNhap\": null\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/phieuxuathanghoa/createphieuxuat",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieuxuathanghoa",
+								"createphieuxuat"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update Copy",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"updatePhieuXuatHangHoaChiTietData\":{\r\n\"nSoLuong\": 1000\r\n    }\r\n    \r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/phieuxuathanghoa/updatephieuxuat/XH-002-01-01-01-05?id=201",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieuxuathanghoa",
+								"updatephieuxuat",
+								"XH-002-01-01-01-05"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "201"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete Copy",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/phieuxuathanghoa/deletephieuxuat/XH-002-01-01-01-05",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieuxuathanghoa",
+								"deletephieuxuat",
+								"XH-002-01-01-01-05"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "phieuxuathangtralai",
+			"item": [
+				{
+					"name": "phieuxuathangtralai getall",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/phieuxuathangtralai",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieuxuathangtralai"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "phieuxuathangtralai bysochungtu",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/phieuxuathangtralai/bysochungtu",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieuxuathangtralai",
+								"bysochungtu"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "phieuxuathangtralai sochungtuNext",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/phieuxuathangtralai/sochungtunext",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieuxuathangtralai",
+								"sochungtunext"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "insert phieuxuathangtralai",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"insertPhieuXuatData\":{\r\n        \"cMaChungTu\": \"XH-002/01-01/01/05\",\r\n        \"cLoaiChungTu\": \"XH\",\r\n        \"dNgayChungTu\": \"2002-01-01T00:00:00.000Z\",\r\n        \"cSoChungTu\": \"001/01\",\r\n        \"cMaKhachHang\": \"0004\",\r\n        \"cTenKhachHang\": \"Cty Sữa TNHH \",\r\n        \"cMaSoThue\": \"3700229344\",\r\n        \"cTaiKhoanNoGiaVon\": \"632\",\r\n        \"cTaiKhoanCoGiaVon\": \"156\",\r\n        \"cTaiKhoanNoGiaBan\": \"131\",\r\n        \"cTaiKhoanCoGiaBan\": \"511\",\r\n        \"cTaiKhoanCoGTGT\": \"3331\",\r\n        \"cDienGiai\": \"Xuất  decal giấy\",\r\n        \"cMatHang\": \"Vật tư\",\r\n        \"nThueSuat\": 0.1,\r\n        \"nThueGTGT\": 1685000,\r\n        \"cSoSeri\": \"AA/99\",\r\n        \"cSoHoaDon\": \"085607\"\r\n    },\r\n    \"insertPhieuXuatHangHoaChiTietData\":{\r\n        \"cMaHang\": \"MU007003\",\r\n                \"cDonViTinh\": \"Kg\",\r\n                \"nSoLuong\": 10,\r\n                \"nDonGiaVon\": 1000000,\r\n                \"nThanhTienGiaVon\": 100000000,\r\n                \"nDonGiaBan\": 5000,\r\n                \"nThanhTienGiaBan\": 50000000,\r\n                \"cMaChungTuNhap\": null\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/phieuxuathanghoa/createphieuxuat",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"phieuxuathanghoa",
+								"createphieuxuat"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nSoDuNoDau\": 50\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/danhmuctaikhoancongnokhachhang/updatetaikhoancongno/0130/3389",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"danhmuctaikhoancongnokhachhang",
+								"updatetaikhoancongno",
+								"0130",
+								"3389"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/danhmuctaikhoancongnokhachhang/deletetaikhoancongno/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"danhmuctaikhoancongnokhachhang",
+								"deletetaikhoancongno",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "xemhangdaxuat",
+			"item": [
+				{
+					"name": "getall",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/xemhangdaxuat",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"xemhangdaxuat"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "xemhangtondanhap",
+			"item": [
+				{
+					"name": "getall",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/xemhangtondanhap/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"xemhangtondanhap",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getHangTraLai",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/xemhangtondanhap/getHangTraLai",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"xemhangtondanhap",
+								"getHangTraLai"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getHangTonDau",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/xemhangtondanhap/getHangTonDau",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"xemhangtondanhap",
+								"getHangTonDau"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "hangtontheolo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/xemhangtondanhap/hangtontheolo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"xemhangtondanhap",
+								"hangtontheolo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getHangTonDaNhap",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/xemhangtondanhap/getHangTonDaNhap",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"xemhangtondanhap",
+								"getHangTonDaNhap"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "hangtontheolo bymahang",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/xemhangtondanhap/hangtontheolo/GA000002",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"xemhangtondanhap",
+								"hangtontheolo",
+								"GA000002"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
